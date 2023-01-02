@@ -1,10 +1,16 @@
-
+import { Fragment } from "react";
+import { Route, Routes } from "react-router-dom";
+import Landing from "./pages/landingPage";
+import Location from "./pages/locationPage";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-[100px]">hello world</h1>
-    </div>
+    <Fragment>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/location" element={<Location />} />
+      </Routes>
+    </Fragment>
   );
 }
 
