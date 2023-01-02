@@ -56,7 +56,7 @@ const Landing = () => {
       </section>
       <section className="bg-[#000] text-white box-border px-[32px] py-[48px] flex flex-col">
         <img src={logoWhite} className="mb-[38px] h-[40px] w-[110px]" />
-        <p className="font-[outfit] mb-[38px] leading-7 tracking-wide">The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
+        <p className="font-[outfit] mb-[38px] leading-7 tracking-">The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
         <div className="flex ">
             <img src={fbIcon} alt="" />
             <img src={instaIcon} className="mx-[20px]" />
