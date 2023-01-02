@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { useNavigate } from "react-router-dom";
 import arrowLeft from "../assets/icon-arrow-left.svg";
 import fbIcon from "../assets/icon-facebook-dark.svg";
 import instaIcon from "../assets/icon-instagram-dark.svg";
@@ -8,11 +9,14 @@ import mapImage from "../assets/mobile/image-map.png"
 
 
 const Location = () => {
-    
+    const navigate = useNavigate()
+    const gobackhandler =() => {
+        navigate("/")
+    }
   return (
     <Fragment>
       <section>
-        <button className="w-[260px] h-[72px] bg-[#000] flex justify-between absolute">
+        <button onClick={gobackhandler} className="w-[260px] h-[72px] bg-[#000] flex justify-between absolute">
           <span className="bg-[#D5966C] w-[56px] h-[72px] flex items-center justify-center">
             <img src={arrowLeft} alt="" />
           </span>
