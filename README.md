@@ -1,4 +1,4 @@
-#### ART GALLERY WEBSITE
+## ART GALLERY WEBSITE
 
 A simple React app built using Tailwind CSS for styling and responsive design on screens with a width of 375px, 768px, and 1440px.
 
