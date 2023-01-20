@@ -5,10 +5,6 @@ import twitIcon from "../assets/icon-twitter.svg";
 import logoWhite from "../assets/logo-light.svg";
 import arrowRight from "../assets/icon-arrow-right.svg";
 
-import secondImage from "../assets/mobile/image-grid-1.jpg";
-import chairImage from "../assets/mobile/image-grid-2.jpg";
-import lastImage from "../assets/mobile/image-grid-3.jpg";
-
 const Landing = () => {
   const navigate = useNavigate();
 
@@ -143,7 +139,7 @@ const Landing = () => {
         </div>
       </section>
       <section className="bg-[#000] text-white box-border px-[32px] py-[48px] flex flex-col md:flex-row md:px-[40px] md:justify-between xl:px-[165px] xl:pt-[80px]">
-        <img src={logoWhite} className="mb-[38px] h-[40px] w-[110px]" />
+        <img src={logoWhite} className="mb-[38px] h-[40px] w-[110px]  xl:w-[160px] xl:h-[60px]" />
         <p className="font-[outfit] mb-[38px] leading-7 font-light md:w-[281px] md:mb-0 xl:w-[430px]">
           The Modern Art Gallery is free to all visitors and open seven days a
           week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
